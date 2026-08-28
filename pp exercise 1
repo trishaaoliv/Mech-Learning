@@ -1,0 +1,22 @@
+Exercise 1, throguh https://www.practicepython.org/exercise/2014/01/29/01-character-input.html
+time : 63m
+
+currentYear = 2026
+name = input("Name: ")
+age = int(input("Age: "))
+year1 = int(100-age + currentYear)
+message = ('Hey ' + name + ", you will turn 100 years old in " + str(year1) + "! ")
+print(message)
+
+
+copy = input("Would you like a copy of the previous message? ")
+if copy in ['yes', 'y']:
+    num = int(input("Number of copies: "))
+    print(message*num)
+    print("or is this better to look at?")
+    message2 = ('Hey ' + name + ", you will turn 100 years old in " + str(year1) + "! \n")
+    print(message2*num)
+
+
+if copy in['no', 'n']:
+    quit()
