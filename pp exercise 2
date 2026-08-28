@@ -1,0 +1,19 @@
+Exercise 2, through https://www.practicepython.org/solution/2014/02/15/02-odd-or-even-solutions.html
+Odd Or Even Solutions
+time : 36m
+
+num = int(input("Enter a number: "))
+check = int(input("Enter a number to divide by: "))
+result = num % 2
+result4 = num % 4
+if result > 0:
+    print("The number " + str(num) + " is odd")
+else:
+    if result4 == 0:
+        print("The number " + str(num) + " is even and a multiplication of 4")
+    else:
+        print("The number " + str(num) + " is even")
+if num % check == 0:
+    print("The number " + str(num) + " divides evenly into " + str(check))
+else:
+    print("The number " + str(num) + " does not divide evenly into " + str(check))
