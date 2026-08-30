@@ -1,5 +1,6 @@
-Exercise 1, throguh https://www.practicepython.org/exercise/2014/01/29/01-character-input.html
-time : 63m, August 29, 2026
+#Exercise 1, through https://www.practicepython.org/exercise/2014/01/29/01-character-input.html
+#Character Input
+#time : 63m, August 29, 2026
 
 currentYear = 2026
 name = input("Name: ")
