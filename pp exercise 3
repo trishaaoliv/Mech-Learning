@@ -1,6 +1,6 @@
 #Exercise 3, https://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html
 #List Less Than Ten
-#time : forgot to time
+#time : forgot to time, August 31, 2026
 
 a = [1,1,2,3,5,8,13,21,34,55,89]
 b = []
