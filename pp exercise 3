@@ -1,0 +1,24 @@
+#Exercise 3, https://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html
+#List Less Than Ten
+#time : forgot to time
+
+a = [1,1,2,3,5,8,13,21,34,55,89]
+b = []
+for element in a:
+    if element < 5:
+        b.append(element)
+print(b)
+
+#for one line extra
+print([b for b in a if b<5])
+
+x = []
+num = int(input("Enter a number: "))
+print ("Here are the numbers on the list that are smaller than the given number:")
+for element in a:
+    if element < (num):
+        x.append(element)
+print(x)
+
+#for one line extra
+print([x for x in a if x<(num)])
