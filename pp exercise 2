@@ -1,6 +1,6 @@
 Exercise 2, through https://www.practicepython.org/solution/2014/02/15/02-odd-or-even-solutions.html
 Odd Or Even Solutions
-time : 36m
+time : 36m, August 29, 2026
 
 num = int(input("Enter a number: "))
 check = int(input("Enter a number to divide by: "))
