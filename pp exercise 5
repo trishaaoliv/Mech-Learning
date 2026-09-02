@@ -1,0 +1,12 @@
+#Exercise 5, through https://www.practicepython.org/exercise/2014/03/05/05-list-overlap.html
+#List Overlap
+#time: 15m, September 2, 2026
+
+import random
+a = random.sample(range(1,50), 20)
+b = random.sample(range(1,50), 11)
+c = []
+for x in a:
+    if x in b:
+        c.append(x)
+print(c)
