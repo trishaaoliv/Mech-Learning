@@ -1,0 +1,12 @@
+#Exercise 4, https://www.practicepython.org/exercise/2014/02/26/04-divisors.html
+#Divisors
+#time : 12m, September 2, 2026
+
+print("Enter a number and its divisors will be shown.")
+num = int(input("Number: "))
+divisor = range(1, (num)+1)
+list_of_divisors = []
+for x in divisor:
+    if num % x == 0:
+        list_of_divisors.append(x)
+print(list_of_divisors)
