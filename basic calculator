@@ -1,4 +1,6 @@
 #calculator
+#time: 51m, September 5, 2026
+
 def calculate():
   
   print("Select an operation!")
