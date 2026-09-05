@@ -1,0 +1,51 @@
+#calculator
+def calculate():
+  
+  print("Select an operation!")
+  print("1. Addition (+)")
+  print("2. Subtraction (-)")
+  print("3. Multiplication (x)")
+  print("4. Division (:)")
+  calc = (int(input("Operation you wish to use: ")))
+  
+  if calc==1:
+    num1_a = int(input("Enter your first number: "))
+    num2_a = int(input("Enter your second number: "))
+    add = num1_a+num2_a
+    print(str(num1_a) + " + " + str(num2_a))
+    print("Ans: " + str(add))
+  elif calc==2:
+    num1_s = int(input("Enter your first number: "))
+    num2_s = int(input("Enter your second number: "))
+    sub = num1_s-num2_s
+    print(str(num1_s) + " - " + str(num2_s))
+    print("Ans: " + str(sub))
+  elif calc==3:
+    num1_m = int(input("Enter your first number: "))
+    num2_m = int(input("Enter your second number: "))
+    mult = num1_m*num2_m
+    print(str(num1_m) + " x " + str(num2_m))
+    print("Ans: " + str(mult))
+  elif calc==4:
+    num1_d = int(input("Enter your first number: "))
+    num2_d = int(input("Enter your second number: "))
+    div = num1_d/num2_d
+    print(str(num1_d) + " : " + str(num2_d))
+    print("Ans: " + str(div))
+  
+  return playagain()
+
+
+def playagain():
+  while True:
+    y_n = input("Would you like to do another calculation? ")
+    if y_n in ["yes", "y"]:
+      return calculate()
+    elif y_n in ["no", "n"]: 
+      quit()
+    else:
+      print("Invalid answer. Please use yes/y, no/n.")
+      continue
+
+      
+calculate()
